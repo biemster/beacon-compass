@@ -1,0 +1,6 @@
+{
+  "name": "Beacon Compass",
+  "description": "An offline tactical compass pointing directly to preset locations for hikers, travelers, and urban explorers using device GPS and compass orientation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
