@@ -29,6 +29,10 @@ jobs:
       - name: Create environment configuration
         run: touch .env
 
+      - name: Clean legacy packages if present
+        run: |
+          rm -rf app/src/test/java/com/example app/src/main/java/com/example app/src/androidTest/java/com/example
+
       - name: Set up debug keystore
         run: |
           if [ -f debug.keystore.base64 ]; then
